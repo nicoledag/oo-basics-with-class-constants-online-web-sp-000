@@ -1,6 +1,6 @@
 class Shoe
   attr_accessor :color, :material, :condition, :size
-  attr_reader :brand, 
+  attr_reader :brand,
 
   BRANDS = []
 
@@ -12,11 +12,6 @@ class Shoe
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
-  end
-
-  def size
-    @size = size
-    BRANDS << size
   end
 
 end
