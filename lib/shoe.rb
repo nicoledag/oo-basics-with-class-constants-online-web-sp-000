@@ -9,7 +9,7 @@ class Shoe
     BRANDS.include?(brand) BRANDS << brand : nil
     
 
-   end
+   
   end
 
   def cobble
